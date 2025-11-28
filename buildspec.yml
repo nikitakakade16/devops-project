@@ -17,4 +17,4 @@ phases:
       - docker push 200901485389.dkr.ecr.us-east-1.amazonaws.com/nikita-ecr-deep:latest
 artifacts:
   files:
-    -'**/*'
+    - '**/*'
