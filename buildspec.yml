@@ -15,3 +15,6 @@ phases:
     commands:
       - echo Pushing the Docker image to ECR...
       - docker push 200901485389.dkr.ecr.us-east-1.amazonaws.com/nikita-ecr-deep:latest
+artifacts:
+  files:
+    -imagedefinitions.json
