@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t nikita-ecr-deep:latest .
+      - docker build -t node-app:latest .
       - docker tag node-app:latest 200901485389.dkr.ecr.us-east-1.amazonaws.com/nikita-ecr-deep:latest
   post_build:
     commands:
